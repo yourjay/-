@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18d159c6-f79a-4539-988d-0de6d38b122d" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MAVEN_local" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../MAVEN/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\MAVEN\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2OAu86XcvKjcTGgiuQTd7LbH7Ak" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/model/src/main/java/com/atguigu/helper" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\shf-parent\model\src\main\java\com\atguigu\helper" />
+      <recent name="D:\shf-parent\common-util\src\main\java\com\atguigu\helper" />
+      <recent name="D:\shf-parent\service\service-acl1\src\main\resources\mapper" />
+      <recent name="D:\shf-parent\service\service-user\src\main\resources\mapper" />
+      <recent name="D:\shf-parent\service\service-user\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\shf-parent\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.helper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.shf-parent">
+    <configuration name="DictTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-house" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.DictTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Qiiutext.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.Qiiutext" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shf-parent" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Qiiutext.testUpload" />
+        <item itemvalue="JUnit.DictTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="18d159c6-f79a-4539-988d-0de6d38b122d" name="变更" comment="" />
+      <created>1681015578228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681015578228</updated>
+      <workItem from="1681015579595" duration="5000000" />
+      <workItem from="1681112672576" duration="16284000" />
+      <workItem from="1681293325297" duration="6154000" />
+      <workItem from="1681299553431" duration="12205000" />
+      <workItem from="1681368669775" duration="5863000" />
+      <workItem from="1681442960842" duration="328000" />
+      <workItem from="1681443334792" duration="266000" />
+      <workItem from="1681444413913" duration="67000" />
+      <workItem from="1681444589816" duration="233000" />
+      <workItem from="1681462485068" duration="189000" />
+      <workItem from="1681462737337" duration="6000" />
+      <workItem from="1681485444604" duration="2746000" />
+      <workItem from="1681651881999" duration="1346000" />
+      <workItem from="1681656847835" duration="3429000" />
+      <workItem from="1681717927846" duration="4403000" />
+      <workItem from="1681956161555" duration="4000" />
+      <workItem from="1681972132974" duration="12178000" />
+      <workItem from="1681984655518" duration="6861000" />
+      <workItem from="1682143507425" duration="8000" />
+      <workItem from="1682144981938" duration="6577000" />
+      <workItem from="1682151859368" duration="10822000" />
+      <workItem from="1682231175796" duration="3474000" />
+      <workItem from="1682234719766" duration="14310000" />
+      <workItem from="1682308324641" duration="8000" />
+      <workItem from="1682332338118" duration="9291000" />
+      <workItem from="1682390661083" duration="4000" />
+      <workItem from="1682401512690" duration="18064000" />
+      <workItem from="1682488911027" duration="16414000" />
+      <workItem from="1682508757776" duration="5050000" />
+      <workItem from="1682578196218" duration="15715000" />
+      <workItem from="1682611461998" duration="834000" />
+      <workItem from="1682648193336" duration="19000" />
+      <workItem from="1682742099010" duration="18319000" />
+      <workItem from="1682835104613" duration="12302000" />
+      <workItem from="1682865529720" duration="3753000" />
+      <workItem from="1682870604208" duration="3890000" />
+      <workItem from="1682915123330" duration="832000" />
+      <workItem from="1683012918459" duration="10014000" />
+      <workItem from="1683030986377" duration="5414000" />
+      <workItem from="1683046348386" duration="975000" />
+      <workItem from="1683102935872" duration="29000" />
+      <workItem from="1683271903375" duration="741000" />
+      <workItem from="1683377686345" duration="752000" />
+      <workItem from="1683534948173" duration="38000" />
+      <workItem from="1683618798321" duration="2153000" />
+      <workItem from="1684752365061" duration="1009000" />
+      <workItem from="1684759542697" duration="464000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/AdminService.java</url>
+          <line>7</line>
+          <properties class="com.atguigu.service.AdminService" method="findAll">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

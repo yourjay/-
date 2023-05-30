@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.atguigu.DictTest" time="0.006" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Java\jre\bin"/>
+    <property name="java.vm.version" value="25.341-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\shf-parent"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\shf-parent"/>
+    <property name="java.runtime.version" value="1.8.0_341-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\zi&apos;zi\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\developer_tools\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\MAVEN\apache-maven-3.6.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\VMware\VMwareWorkstation\bin\;D:\python\Scripts\;D:\python\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\mysql\bin;D:\ostools\;D:\matlab2018b1\runtime\win64;D:\matlab2018b1\bin;D:\matlab2018b1\polyspace\bin;D:\应用\Tencent\QQ\Bin;D;\edge下载\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\;%;AVA_CLASS%\bin;D:\java\bin;D:\tomcat8.0\apache-tomcat-8.0.50\lib;D:\tomcat8.0\apache-tomcat-8.0.50\bin;D:\tomcat8.0\apache-tomcat-8.0.50\lib\servlet-api.jar;D:\LINGO64_15\;D:\大三上\数字信号图像处理\工具\opencv\build\x64\vc15\bin;D:\大三上\数字信号图;处理\工具\opencv\build\x64\vc15\lib;D:\;T\Tools\QtCreator\bin;D:\QT\5.14.2\msvc2017_64\bin;D:\MAVEN\apache-maven-3.6.3\bin;D:\putty\;D:\Microsoft VS Code\bin;D:\Git\cmd;D:\Xshell 7\;C:\Program Files\dotnet\;D:\nodejs\;C:\Users\zi&apos;zi\AppData\Local\Microsoft\WindowsApps;D:\应用\iverilog\bin;:\应用\iverilog\gtkwave\bin;D;\360Downloads\bin;D:\coding\bin;D:\IntelliJ IDEA Community Edition 2021.2.1\bin;;D:\play_games\QQGameTempest\Hall.57734\;D:\python\PyCharm Community Edition 2022.1\bin;;D:\pythontools\PyCharm 2022.1\bin;;D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin;C:\Users\zi&apos;zi\.dotnet\tools;C:\Users\zi&apos;zi\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="D:\MAVEN\apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\MAVEN_local"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\zi&apos;zi"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zi&apos;zi"/>
+    <property name="java.class.path" value="D:\MAVEN\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;D:\MAVEN\apache-maven-3.6.3\boot\plexus-classworlds.license;D:\developer_tools\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Java\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 -s D:\MAVEN\apache-maven-3.6.3\conf\settings.xml -Dmaven.repo.local=D:\MAVEN_local install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_341"/>
+    <property name="java.ext.dirs" value="D:\Java\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Java\jre\lib\resources.jar;D:\Java\jre\lib\rt.jar;D:\Java\jre\lib\jsse.jar;D:\Java\jre\lib\jce.jar;D:\Java\jre\lib\charsets.jar;D:\Java\jre\lib\jfr.jar;D:\Java\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\MAVEN\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.atguigu.DictTest" name="test" time="0.006">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;sqlSessionFactoryBean&apos; defined in class path resource [spring/spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: &apos;file [D:\shf-parent\service\service-house\target\classes\mapper\DictDao.xml]&apos;; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 53; columnNumber: 10; 元素类型为 &quot;mapper&quot; 的内容必须匹配 &quot;(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+&quot;。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:874)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 31 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: &apos;file [D:\shf-parent\service\service-house\target\classes\mapper\DictDao.xml]&apos;; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 53; columnNumber: 10; 元素类型为 &quot;mapper&quot; 的内容必须匹配 &quot;(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+&quot;。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 46 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 53; columnNumber: 10; 元素类型为 &quot;mapper&quot; 的内容必须匹配 &quot;(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+&quot;。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259)
+	at org.apache.ibatis.parsing.XPathParser.&lt;init&gt;(XPathParser.java:125)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.&lt;init&gt;(XMLMapperBuilder.java:78)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 49 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 53; columnNumber: 10; 元素类型为 &quot;mapper&quot; 的内容必须匹配 &quot;(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+&quot;。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(XMLDTDValidator.java:1996)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(XMLDTDValidator.java:881)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2969)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:507)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257)
+	... 52 more
+</error>
+    <system-out>2023-04-22 15:58:42.605 [main] DEBUG o.s.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.atguigu.DictTest]
+2023-04-22 15:58:42.612 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2023-04-22 15:58:42.622 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2023-04-22 15:58:42.660 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.atguigu.DictTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2023-04-22 15:58:42.690 [main] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@1e4a7dd4 declaringClass = &apos;com.atguigu.DictTest&apos;, classes = &apos;{}&apos;, locations = &apos;{classpath:spring/spring-dao.xml}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+2023-04-22 15:58:42.724 [main] DEBUG o.s.test.context.support.ActiveProfilesUtils - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.atguigu.DictTest]
+2023-04-22 15:58:42.725 [main] DEBUG o.s.t.c.support.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.atguigu.DictTest]: using defaults.
+2023-04-22 15:58:42.726 [main] INFO  o.s.t.c.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-04-22 15:58:42.749 [main] INFO  o.s.t.c.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@770c2e6b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a052a00, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d826d77, org.springframework.test.context.support.DirtiesContextTestExecutionListener@61009542, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77e9807f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@448ff1a8, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a38c59b]
+2023-04-22 15:58:42.752 [main] DEBUG o.s.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.atguigu.DictTest]
+2023-04-22 15:58:42.754 [main] DEBUG o.s.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.atguigu.DictTest]
+2023-04-22 15:58:42.754 [main] DEBUG o.s.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.atguigu.DictTest]
+2023-04-22 15:58:42.755 [main] DEBUG o.s.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.atguigu.DictTest]
+2023-04-22 15:58:42.758 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@525f1e4e testClass = DictTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@75f9eccc testClass = DictTest, locations = &apos;{classpath:spring/spring-dao.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2023-04-22 15:58:42.761 [main] DEBUG o.s.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.atguigu.DictTest]
+2023-04-22 15:58:42.761 [main] DEBUG o.s.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.atguigu.DictTest]
+2023-04-22 15:58:42.765 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@525f1e4e testClass = DictTest, testInstance = com.atguigu.DictTest@55a1c291, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@75f9eccc testClass = DictTest, locations = &apos;{classpath:spring/spring-dao.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[[empty]]]].
+2023-04-22 15:58:42.766 [main] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@75f9eccc testClass = DictTest, locations = &apos;{classpath:spring/spring-dao.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]].
+2023-04-22 15:58:42.767 [main] DEBUG o.s.t.context.support.AbstractGenericContextLoader - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@75f9eccc testClass = DictTest, locations = &apos;{classpath:spring/spring-dao.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+2023-04-22 15:58:42.821 [main] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles []
+2023-04-22 15:58:42.969 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\shf-parent\service\service-house\target\classes\com\atguigu\dao\CommunityDao.class]
+2023-04-22 15:58:42.973 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\shf-parent\service\service-house\target\classes\com\atguigu\dao\DictDao.class]
+2023-04-22 15:58:42.973 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\shf-parent\service\service-house\target\classes\com\atguigu\dao\HouseDao.class]
+2023-04-22 15:58:42.974 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/D:/shf-parent/common-util/target/common-util-1.0.jar!/com/atguigu/dao/BaseDao.class]
+2023-04-22 15:58:42.981 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name &apos;communityDao&apos; and &apos;com.atguigu.dao.CommunityDao&apos; mapperInterface
+2023-04-22 15:58:42.983 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name &apos;communityDao&apos;.
+2023-04-22 15:58:42.983 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name &apos;dictDao&apos; and &apos;com.atguigu.dao.DictDao&apos; mapperInterface
+2023-04-22 15:58:42.983 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name &apos;dictDao&apos;.
+2023-04-22 15:58:42.983 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name &apos;houseDao&apos; and &apos;com.atguigu.dao.HouseDao&apos; mapperInterface
+2023-04-22 15:58:42.983 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name &apos;houseDao&apos;.
+2023-04-22 15:58:42.983 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name &apos;baseDao&apos; and &apos;com.atguigu.dao.BaseDao&apos; mapperInterface
+2023-04-22 15:58:42.983 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name &apos;baseDao&apos;.
+2023-04-22 15:58:42.992 [main] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 12 bean definitions from class path resource [spring/spring-dao.xml]
+2023-04-22 15:58:42.992 [main] DEBUG o.s.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@78b1cc93
+2023-04-22 15:58:43.027 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2023-04-22 15:58:43.052 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
+2023-04-22 15:58:43.095 [main] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key &apos;jdbc.username&apos; in PropertySource &apos;localProperties&apos; with value of type String
+2023-04-22 15:58:43.095 [main] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key &apos;jdbc.password&apos; in PropertySource &apos;localProperties&apos; with value of type String
+2023-04-22 15:58:43.095 [main] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key &apos;jdbc.url&apos; in PropertySource &apos;localProperties&apos; with value of type String
+2023-04-22 15:58:43.095 [main] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key &apos;jdbc.driverClassName&apos; in PropertySource &apos;localProperties&apos; with value of type String
+2023-04-22 15:58:43.096 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
+2023-04-22 15:58:43.097 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+2023-04-22 15:58:43.100 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2023-04-22 15:58:43.101 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2023-04-22 15:58:43.110 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;dataSource&apos;
+2023-04-22 15:58:43.177 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;sqlSessionFactoryBean&apos;
+2023-04-22 15:58:43.186 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using &apos;class org.apache.ibatis.logging.slf4j.Slf4jImpl&apos; adapter.
+2023-04-22 15:58:43.278 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2023-04-22 15:58:43.278 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2023-04-22 15:58:43.279 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2023-04-22 15:58:43.280 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-04-22 15:58:43.281 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-04-22 15:58:43.282 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: jar:file:/D:/shf-parent/model/target/model-1.0.jar!/com/atguigu/entity
+2023-04-22 15:58:43.282 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Inner URL: file:/D:/shf-parent/model/target/model-1.0.jar!/com/atguigu/entity
+2023-04-22 15:58:43.282 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Extracted JAR URL: file:/D:/shf-parent/model/target/model-1.0.jar
+2023-04-22 15:58:43.283 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found JAR: file:/D:/shf-parent/model/target/model-1.0.jar
+2023-04-22 15:58:43.283 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing jar:file:/D:/shf-parent/model/target/model-1.0.jar!/com/atguigu/entity
+2023-04-22 15:58:43.284 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/Admin.class
+2023-04-22 15:58:43.284 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/AdminRole.class
+2023-04-22 15:58:43.284 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/BaseEntity.class
+2023-04-22 15:58:43.284 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/Community.class
+2023-04-22 15:58:43.284 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/Dict.class
+2023-04-22 15:58:43.285 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/House.class
+2023-04-22 15:58:43.285 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/HouseBroker.class
+2023-04-22 15:58:43.285 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/HouseImage.class
+2023-04-22 15:58:43.285 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/HouseUser.class
+2023-04-22 15:58:43.285 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/Permission.class
+2023-04-22 15:58:43.285 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/Role.class
+2023-04-22 15:58:43.285 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/RolePermission.class
+2023-04-22 15:58:43.285 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/UserFollow.class
+2023-04-22 15:58:43.285 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/atguigu/entity/UserInfo.class
+2023-04-22 15:58:43.286 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.Admin matches criteria [is assignable to Object]
+2023-04-22 15:58:43.287 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.AdminRole matches criteria [is assignable to Object]
+2023-04-22 15:58:43.288 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.BaseEntity matches criteria [is assignable to Object]
+2023-04-22 15:58:43.288 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.Community matches criteria [is assignable to Object]
+2023-04-22 15:58:43.289 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.Dict matches criteria [is assignable to Object]
+2023-04-22 15:58:43.289 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.House matches criteria [is assignable to Object]
+2023-04-22 15:58:43.290 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.HouseBroker matches criteria [is assignable to Object]
+2023-04-22 15:58:43.290 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.HouseImage matches criteria [is assignable to Object]
+2023-04-22 15:58:43.290 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.HouseUser matches criteria [is assignable to Object]
+2023-04-22 15:58:43.291 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.Permission matches criteria [is assignable to Object]
+2023-04-22 15:58:43.292 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.Role matches criteria [is assignable to Object]
+2023-04-22 15:58:43.292 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.RolePermission matches criteria [is assignable to Object]
+2023-04-22 15:58:43.293 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.UserFollow matches criteria [is assignable to Object]
+2023-04-22 15:58:43.293 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.atguigu.entity.UserInfo matches criteria [is assignable to Object]
+2023-04-22 15:58:43.294 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: &apos;com.atguigu.entity&apos; for aliases
+2023-04-22 15:58:43.333 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: &apos;class path resource [mybatis-config.xml]&apos;
+2023-04-22 15:58:43.404 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [D:\shf-parent\service\service-house\target\classes\mapper\CommunityDao.xml]&apos;
+2023-04-22 15:58:43.413 [main] WARN  o.s.context.support.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;sqlSessionFactoryBean&apos; defined in class path resource [spring/spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: &apos;file [D:\shf-parent\service\service-house\target\classes\mapper\DictDao.xml]&apos;; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 53; columnNumber: 10; Ԫ������Ϊ &quot;mapper&quot; �����ݱ���ƥ�� &quot;(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+&quot;��
+2023-04-22 15:58:43.421 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d826d77] to prepare test instance [com.atguigu.DictTest@55a1c291]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;sqlSessionFactoryBean&apos; defined in class path resource [spring/spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: &apos;file [D:\shf-parent\service\service-house\target\classes\mapper\DictDao.xml]&apos;; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 53; columnNumber: 10; Ԫ������Ϊ &quot;mapper&quot; �����ݱ���ƥ�� &quot;(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+&quot;��
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:874)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 31 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: &apos;file [D:\shf-parent\service\service-house\target\classes\mapper\DictDao.xml]&apos;; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 53; columnNumber: 10; Ԫ������Ϊ &quot;mapper&quot; �����ݱ���ƥ�� &quot;(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+&quot;��
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 46 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 53; columnNumber: 10; Ԫ������Ϊ &quot;mapper&quot; �����ݱ���ƥ�� &quot;(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+&quot;��
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259)
+	at org.apache.ibatis.parsing.XPathParser.&lt;init&gt;(XPathParser.java:125)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.&lt;init&gt;(XMLMapperBuilder.java:78)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 49 common frames omitted
+Caused by: org.xml.sax.SAXParseException: Ԫ������Ϊ &quot;mapper&quot; �����ݱ���ƥ�� &quot;(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+&quot;��
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(XMLDTDValidator.java:1996)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(XMLDTDValidator.java:881)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2969)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:507)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:867)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257)
+	... 52 common frames omitted
+</system-out>
+    <system-err>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/MAVEN_local/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/MAVEN_local/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+</system-err>
+  </testcase>
+</testsuite>

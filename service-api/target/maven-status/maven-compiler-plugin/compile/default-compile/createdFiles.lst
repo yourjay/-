@@ -1,0 +1,11 @@
+com\atguigu\service\HouseUserService.class
+com\atguigu\service\PermissionService.class
+com\atguigu\service\RoleService.class
+com\atguigu\service\DictService.class
+com\atguigu\service\AdminService.class
+com\atguigu\service\UserFollowService.class
+com\atguigu\service\CommnityService.class
+com\atguigu\service\UserInfoService.class
+com\atguigu\service\HouseBrokerService.class
+com\atguigu\service\HouseImageService.class
+com\atguigu\service\HouseSerice.class
